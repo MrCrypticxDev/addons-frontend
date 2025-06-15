@@ -645,19 +645,19 @@ msgstr "Zainstaluj motyw"
 msgid "Add to Firefox"
 msgstr "Dodaj do Firefoksa"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Dodatki do Firefoksa (%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s — dodatki do Firefoksa (%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Dodatki do Firefoksa na Androida (%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s — dodatki do Firefoksa na Androida (%(locale)s)"
 
@@ -1670,11 +1670,11 @@ msgstr "Uprawnienia"
 
 #: src/amo/components/PermissionsCard/index.js:84
 msgid "Required permissions:"
-msgstr ""
+msgstr "Wymagane uprawnienia:"
 
 #: src/amo/components/PermissionsCard/index.js:94
 msgid "Optional permissions:"
-msgstr ""
+msgstr "Opcjonalne uprawnienia:"
 
 #: src/amo/components/PermissionsCard/permissions.js:27
 msgid "Read and modify bookmarks"
@@ -3390,7 +3390,7 @@ msgstr "(brak nazwy)"
 #. This is application compatibility information, such as "firefox 41 and later"
 #: src/amo/reducers/versions.js:305
 msgid "%(application)s %(minVersion)s and later"
-msgstr "%(application)s %(minVersion)s i nowszy"
+msgstr "%(application)s %(minVersion)s i nowsze"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
 #: src/amo/reducers/versions.js:309

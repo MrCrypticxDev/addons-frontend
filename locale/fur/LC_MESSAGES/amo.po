@@ -640,19 +640,19 @@ msgstr "Instale teme"
 msgid "Add to Firefox"
 msgstr "Zonte a Firefox"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Components adizionâi par Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s – Components adizionâi par Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Components adizionâi par Firefox Android (%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s – Components adizionâi par Firefox Android (%(locale)s)"
 
@@ -1671,11 +1671,11 @@ msgstr "Permès"
 
 #: src/amo/components/PermissionsCard/index.js:84
 msgid "Required permissions:"
-msgstr ""
+msgstr "Permès obligatoris:"
 
 #: src/amo/components/PermissionsCard/index.js:94
 msgid "Optional permissions:"
-msgstr ""
+msgstr "Permès facoltatîfs:"
 
 #: src/amo/components/PermissionsCard/permissions.js:27
 msgid "Read and modify bookmarks"
