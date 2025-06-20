@@ -640,19 +640,19 @@ msgstr "Installar thema"
 msgid "Add to Firefox"
 msgstr "Adder a Firefox"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Additivos pro Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s – Additivos pro Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Additivos pro Firefox Android (%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s – Additivos pro Firefox Android (%(locale)s)"
 
@@ -1636,7 +1636,7 @@ msgstr "Recommendate"
 msgid "Download file"
 msgstr "Discargar file"
 
-#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:68
+#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:91
 msgid "Learn more"
 msgstr "Saper plus"
 
@@ -1664,109 +1664,173 @@ msgstr "Sequente"
 msgid "Page %(thisPage)s of %(totalPages)s"
 msgstr "Pagina %(thisPage)s de %(totalPages)s"
 
-#: src/amo/components/PermissionsCard/index.js:59
-msgid "Permissions"
-msgstr "Permissiones"
-
-#: src/amo/components/PermissionsCard/index.js:84
+#: src/amo/components/PermissionsCard/index.js:107
 msgid "Required permissions:"
-msgstr ""
+msgstr "Permissos necessari:"
 
-#: src/amo/components/PermissionsCard/index.js:94
+#: src/amo/components/PermissionsCard/index.js:117
 msgid "Optional permissions:"
-msgstr ""
+msgstr "Permissos optional:"
 
-#: src/amo/components/PermissionsCard/permissions.js:27
+#: src/amo/components/PermissionsCard/index.js:137
+msgid "Optional data collection, according to the developer:"
+msgstr "Collection de datos optional, in accordo al developpator:"
+
+#: src/amo/components/PermissionsCard/index.js:77
+msgid "Data collection:"
+msgstr "Collection de datos:"
+
+#: src/amo/components/PermissionsCard/index.js:78
+msgid "Required data collection, according to the developer:"
+msgstr "Collection de datos necessari, in accordo al developpator:"
+
+#: src/amo/components/PermissionsCard/index.js:82
+msgid "Permissions and data"
+msgstr "Permissos e datos"
+
+#: src/amo/components/PermissionsCard/permissions.js:29
 msgid "Read and modify bookmarks"
 msgstr "Leger e modificar le marcapaginas"
 
-#: src/amo/components/PermissionsCard/permissions.js:28
+#: src/amo/components/PermissionsCard/permissions.js:30
 msgid "Read and modify browser settings"
 msgstr "Leger e modificar le parametros del navigator"
 
-#: src/amo/components/PermissionsCard/permissions.js:29
+#: src/amo/components/PermissionsCard/permissions.js:31
 msgid "Clear recent browsing history, cookies, and related data"
 msgstr "Rader le chronologia de navigation recente e le cookies e datos associate"
 
-#: src/amo/components/PermissionsCard/permissions.js:32
+#: src/amo/components/PermissionsCard/permissions.js:34
 msgid "Get data from the clipboard"
 msgstr "Obtener datos ab le area de transferentia"
 
-#: src/amo/components/PermissionsCard/permissions.js:33
+#: src/amo/components/PermissionsCard/permissions.js:35
 msgid "Input data to the clipboard"
 msgstr "Inserer datos in le area de transferentia"
 
-#: src/amo/components/PermissionsCard/permissions.js:34
+#: src/amo/components/PermissionsCard/permissions.js:36
 msgid "Block content on any page"
 msgstr "Bloccar le contento in tote pagina"
 
-#: src/amo/components/PermissionsCard/permissions.js:35
+#: src/amo/components/PermissionsCard/permissions.js:37
 msgid "Read your browsing history"
 msgstr "Leger tu chronologia de navigation"
 
-#: src/amo/components/PermissionsCard/permissions.js:36
+#: src/amo/components/PermissionsCard/permissions.js:38
 msgid "Extend developer tools to access your data in open tabs"
 msgstr "Extende le instrumentos de disveloppamento pro acceder a tu datos in le schedas aperite"
 
-#: src/amo/components/PermissionsCard/permissions.js:39
+#: src/amo/components/PermissionsCard/permissions.js:41
 msgid "Download files and read and modify the browser’s download history"
 msgstr "Discargar files e leger e modificar le chronologia de discargamentos del navigator"
 
-#: src/amo/components/PermissionsCard/permissions.js:42
+#: src/amo/components/PermissionsCard/permissions.js:44
 msgid "Open files downloaded to your computer"
 msgstr "Aperir le files discargate in tu computator"
 
-#: src/amo/components/PermissionsCard/permissions.js:43
+#: src/amo/components/PermissionsCard/permissions.js:45
 msgid "Read the text of all open tabs"
 msgstr "Lege le texto de tote le schedas aperite"
 
-#: src/amo/components/PermissionsCard/permissions.js:44
+#: src/amo/components/PermissionsCard/permissions.js:46
 msgid "Access your location"
 msgstr "Acceder a tu geolocalisation"
 
-#: src/amo/components/PermissionsCard/permissions.js:45 src/amo/components/PermissionsCard/permissions.js:59
+#: src/amo/components/PermissionsCard/permissions.js:47 src/amo/components/PermissionsCard/permissions.js:61
 msgid "Access browsing history"
 msgstr "Acceder al chronologia de navigation"
 
-#: src/amo/components/PermissionsCard/permissions.js:46
+#: src/amo/components/PermissionsCard/permissions.js:48
 msgid "Monitor extension usage and manage themes"
 msgstr "Surveliar le utilisation del extensiones e gerer le themas"
 
-#: src/amo/components/PermissionsCard/permissions.js:49
+#: src/amo/components/PermissionsCard/permissions.js:51
 msgid "Exchange messages with programs other than Firefox"
 msgstr "Excambiar messages con programmas differente de Firefox"
 
-#: src/amo/components/PermissionsCard/permissions.js:52
+#: src/amo/components/PermissionsCard/permissions.js:54
 msgid "Display notifications to you"
 msgstr "Monstra le notificationes pro te"
 
-#: src/amo/components/PermissionsCard/permissions.js:53
+#: src/amo/components/PermissionsCard/permissions.js:55
 msgid "Provide cryptographic authentication services"
 msgstr "Forni servicios de authentication cryptographic"
 
-#: src/amo/components/PermissionsCard/permissions.js:54
+#: src/amo/components/PermissionsCard/permissions.js:56
 msgid "Control browser proxy settings"
 msgstr "Controlar le parametros del proxy del navigator"
 
-#: src/amo/components/PermissionsCard/permissions.js:55
+#: src/amo/components/PermissionsCard/permissions.js:57
 msgid "Read and modify privacy settings"
 msgstr "Leger e modificar le parametros de confidentialitate"
 
-#: src/amo/components/PermissionsCard/permissions.js:56
+#: src/amo/components/PermissionsCard/permissions.js:58
 msgid "Access recently closed tabs"
 msgstr "Acceder al schedas claudite recentemente"
 
-#: src/amo/components/PermissionsCard/permissions.js:57
+#: src/amo/components/PermissionsCard/permissions.js:59
 msgid "Access browser tabs"
 msgstr "Accede al schedas del navigator"
 
-#: src/amo/components/PermissionsCard/permissions.js:58
+#: src/amo/components/PermissionsCard/permissions.js:60
 msgid "Hide and show browser tabs"
 msgstr "Celar e monstrar le schedas del navigator"
 
-#: src/amo/components/PermissionsCard/permissions.js:60
+#: src/amo/components/PermissionsCard/permissions.js:62
 msgid "Access browser activity during navigation"
 msgstr "Acceder al activitate del navigator durante le navigation"
+
+#: src/amo/components/PermissionsCard/permissions.js:66
+msgid "Authentication information"
+msgstr "Informationes de authentication"
+
+#: src/amo/components/PermissionsCard/permissions.js:67
+msgid "Bookmarks"
+msgstr "Marcapaginas"
+
+#: src/amo/components/PermissionsCard/permissions.js:68
+msgid "Browsing activity"
+msgstr "Activitate de navigation"
+
+#: src/amo/components/PermissionsCard/permissions.js:69
+msgid "Financial and payment information"
+msgstr "Informationes financiari e de pagamento"
+
+#: src/amo/components/PermissionsCard/permissions.js:72
+msgid "Health information"
+msgstr "Informationes sanitari"
+
+#: src/amo/components/PermissionsCard/permissions.js:73 src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
+msgid "Location"
+msgstr "Position"
+
+#: src/amo/components/PermissionsCard/permissions.js:74
+msgid "Personal communications"
+msgstr "Communicationes personal"
+
+#: src/amo/components/PermissionsCard/permissions.js:75
+msgid "Personally identifying information"
+msgstr "Informationes de identification personal"
+
+#: src/amo/components/PermissionsCard/permissions.js:78
+msgid "Search terms"
+msgstr "Terminos de recerca"
+
+#: src/amo/components/PermissionsCard/permissions.js:79
+msgid "Technical and interaction data"
+msgstr "Datos technic e interactive"
+
+#: src/amo/components/PermissionsCard/permissions.js:80
+msgid "Website activity"
+msgstr "Activitate del sito web"
+
+#: src/amo/components/PermissionsCard/permissions.js:81
+msgid "Website content"
+msgstr "Contento de sito web"
+
+#: src/amo/components/PermissionsCard/permissions.js:85
+msgid "The developer says this extension doesn't require data collection."
+msgstr "Le disveloppator dice que iste extension non require collection de datos."
 
 #: src/amo/components/PromotedBadge/index.js:42
 msgid "Official add-on built by Mozilla Firefox. Meets security and performance standards."
@@ -3138,10 +3202,6 @@ msgstr "Profilo del usator pro %(user)s"
 msgid "User Profile"
 msgstr "Profilo del usator"
 
-#: src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
-msgid "Location"
-msgstr "Position"
-
 #: src/amo/pages/UserProfile/index.js:379 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Occupation"
 msgstr "Occupation"
@@ -3357,17 +3417,17 @@ msgid "(no name)"
 msgstr "(nulle nomine)"
 
 #. This is application compatibility information, such as "firefox 41 and later"
-#: src/amo/reducers/versions.js:305
+#: src/amo/reducers/versions.js:307
 msgid "%(application)s %(minVersion)s and later"
 msgstr "%(application)s %(minVersion)s e plus recente"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
-#: src/amo/reducers/versions.js:309
+#: src/amo/reducers/versions.js:311
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "%(application)s %(minVersion)s a %(maxVersion)s"
 
 #. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
-#: src/amo/reducers/versions.js:329
+#: src/amo/reducers/versions.js:331
 msgid "Works with %(listOfApplicatonsAndVersions)s"
 msgstr "Functiona con %(listOfApplicatonsAndVersions)s"
 

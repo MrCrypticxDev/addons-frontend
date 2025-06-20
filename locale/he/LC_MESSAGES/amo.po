@@ -640,19 +640,19 @@ msgstr "התקנת ערכת נושא"
 msgid "Add to Firefox"
 msgstr "הוספה ל־Firefox"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "תוספות עבור Firefox ‏(%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "‏%(title)s – תוספות עבור Firefox ‏(%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "תוספות עבור Firefox ל־Android ‏(%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "‏%(title)s – תוספות עבור Firefox ל־Android ‏(%(locale)s)"
 
@@ -1632,7 +1632,7 @@ msgstr "מומלץ"
 msgid "Download file"
 msgstr "הורדת קובץ"
 
-#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:68
+#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:91
 msgid "Learn more"
 msgstr "מידע נוסף"
 
@@ -1660,109 +1660,173 @@ msgstr "הבא"
 msgid "Page %(thisPage)s of %(totalPages)s"
 msgstr "עמוד %(thisPage)s מתוך %(totalPages)s"
 
-#: src/amo/components/PermissionsCard/index.js:59
-msgid "Permissions"
-msgstr "הרשאות"
-
-#: src/amo/components/PermissionsCard/index.js:84
+#: src/amo/components/PermissionsCard/index.js:107
 msgid "Required permissions:"
-msgstr ""
+msgstr "הרשאות נדרשות:"
 
-#: src/amo/components/PermissionsCard/index.js:94
+#: src/amo/components/PermissionsCard/index.js:117
 msgid "Optional permissions:"
-msgstr ""
+msgstr "הרשאות אופציונליות:"
 
-#: src/amo/components/PermissionsCard/permissions.js:27
+#: src/amo/components/PermissionsCard/index.js:137
+msgid "Optional data collection, according to the developer:"
+msgstr "איסוף נתונים אופציונלי, לפי המפתח:"
+
+#: src/amo/components/PermissionsCard/index.js:77
+msgid "Data collection:"
+msgstr "איסוף נתונים:"
+
+#: src/amo/components/PermissionsCard/index.js:78
+msgid "Required data collection, according to the developer:"
+msgstr "איסוף נתונים נדרש, לפי המפתח:"
+
+#: src/amo/components/PermissionsCard/index.js:82
+msgid "Permissions and data"
+msgstr "הרשאות ונתונים"
+
+#: src/amo/components/PermissionsCard/permissions.js:29
 msgid "Read and modify bookmarks"
 msgstr "קריאה ועריכת סימניות"
 
-#: src/amo/components/PermissionsCard/permissions.js:28
+#: src/amo/components/PermissionsCard/permissions.js:30
 msgid "Read and modify browser settings"
 msgstr "קריאה ועריכת הגדרות הדפדפן"
 
-#: src/amo/components/PermissionsCard/permissions.js:29
+#: src/amo/components/PermissionsCard/permissions.js:31
 msgid "Clear recent browsing history, cookies, and related data"
 msgstr "איפוס היסטוריית הגלישה, העוגיות והנתונים הנוספים שצברת לאחרונה"
 
-#: src/amo/components/PermissionsCard/permissions.js:32
+#: src/amo/components/PermissionsCard/permissions.js:34
 msgid "Get data from the clipboard"
 msgstr "קבלת נתונים מלוח העריכה"
 
-#: src/amo/components/PermissionsCard/permissions.js:33
+#: src/amo/components/PermissionsCard/permissions.js:35
 msgid "Input data to the clipboard"
 msgstr "הזנת נתונים בלוח העריכה"
 
-#: src/amo/components/PermissionsCard/permissions.js:34
+#: src/amo/components/PermissionsCard/permissions.js:36
 msgid "Block content on any page"
 msgstr "חסימת תוכן בכל עמוד"
 
-#: src/amo/components/PermissionsCard/permissions.js:35
+#: src/amo/components/PermissionsCard/permissions.js:37
 msgid "Read your browsing history"
 msgstr "קריאת היסטוריית הגלישה שלך"
 
-#: src/amo/components/PermissionsCard/permissions.js:36
+#: src/amo/components/PermissionsCard/permissions.js:38
 msgid "Extend developer tools to access your data in open tabs"
 msgstr "הרחבת כלי הפיתוח לקבלת גישה לנתונים שלך בלשוניות פתוחות"
 
-#: src/amo/components/PermissionsCard/permissions.js:39
+#: src/amo/components/PermissionsCard/permissions.js:41
 msgid "Download files and read and modify the browser’s download history"
 msgstr "הורדת קבצים, קריאה ועריכת היסטוריית ההורדות של הדפדפן"
 
-#: src/amo/components/PermissionsCard/permissions.js:42
+#: src/amo/components/PermissionsCard/permissions.js:44
 msgid "Open files downloaded to your computer"
 msgstr "פתיחת קבצים שהורדו למחשב שלך"
 
-#: src/amo/components/PermissionsCard/permissions.js:43
+#: src/amo/components/PermissionsCard/permissions.js:45
 msgid "Read the text of all open tabs"
 msgstr "קריאת הטקסט של כל הלשוניות הפתוחות"
 
-#: src/amo/components/PermissionsCard/permissions.js:44
+#: src/amo/components/PermissionsCard/permissions.js:46
 msgid "Access your location"
 msgstr "גישה לנתוני המיקום שלך"
 
-#: src/amo/components/PermissionsCard/permissions.js:45 src/amo/components/PermissionsCard/permissions.js:59
+#: src/amo/components/PermissionsCard/permissions.js:47 src/amo/components/PermissionsCard/permissions.js:61
 msgid "Access browsing history"
 msgstr "גישה להיסטוריית הגלישה"
 
-#: src/amo/components/PermissionsCard/permissions.js:46
+#: src/amo/components/PermissionsCard/permissions.js:48
 msgid "Monitor extension usage and manage themes"
 msgstr "ניטור שימוש בהרחבות וניהול ערכות נושא"
 
-#: src/amo/components/PermissionsCard/permissions.js:49
+#: src/amo/components/PermissionsCard/permissions.js:51
 msgid "Exchange messages with programs other than Firefox"
 msgstr "החלפת הודעות עם יישומים אחרים מלבד Firefox"
 
-#: src/amo/components/PermissionsCard/permissions.js:52
+#: src/amo/components/PermissionsCard/permissions.js:54
 msgid "Display notifications to you"
 msgstr "הצגת התרעות"
 
-#: src/amo/components/PermissionsCard/permissions.js:53
+#: src/amo/components/PermissionsCard/permissions.js:55
 msgid "Provide cryptographic authentication services"
 msgstr "אספקת שירותי אימות מוצפנים"
 
-#: src/amo/components/PermissionsCard/permissions.js:54
+#: src/amo/components/PermissionsCard/permissions.js:56
 msgid "Control browser proxy settings"
 msgstr "שליטה בהגדרות המתווך של הדפדפן"
 
-#: src/amo/components/PermissionsCard/permissions.js:55
+#: src/amo/components/PermissionsCard/permissions.js:57
 msgid "Read and modify privacy settings"
 msgstr "קריאה ועריכה של הגדרות פרטיות"
 
-#: src/amo/components/PermissionsCard/permissions.js:56
+#: src/amo/components/PermissionsCard/permissions.js:58
 msgid "Access recently closed tabs"
 msgstr "גישה ללשוניות שנסגרו לאחרונה"
 
-#: src/amo/components/PermissionsCard/permissions.js:57
+#: src/amo/components/PermissionsCard/permissions.js:59
 msgid "Access browser tabs"
 msgstr "גישה ללשוניות"
 
-#: src/amo/components/PermissionsCard/permissions.js:58
+#: src/amo/components/PermissionsCard/permissions.js:60
 msgid "Hide and show browser tabs"
 msgstr "הסתרה והצגת לשוניות הדפדפן"
 
-#: src/amo/components/PermissionsCard/permissions.js:60
+#: src/amo/components/PermissionsCard/permissions.js:62
 msgid "Access browser activity during navigation"
 msgstr "גישה לפעילות הדפדפן במהלך הניווט"
+
+#: src/amo/components/PermissionsCard/permissions.js:66
+msgid "Authentication information"
+msgstr "מידע אימות"
+
+#: src/amo/components/PermissionsCard/permissions.js:67
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: src/amo/components/PermissionsCard/permissions.js:68
+msgid "Browsing activity"
+msgstr "פעילות גלישה"
+
+#: src/amo/components/PermissionsCard/permissions.js:69
+msgid "Financial and payment information"
+msgstr "מידע על כספים ותשלומים"
+
+#: src/amo/components/PermissionsCard/permissions.js:72
+msgid "Health information"
+msgstr "מידע על בריאות"
+
+#: src/amo/components/PermissionsCard/permissions.js:73 src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
+msgid "Location"
+msgstr "מיקום"
+
+#: src/amo/components/PermissionsCard/permissions.js:74
+msgid "Personal communications"
+msgstr "תקשורת אישית"
+
+#: src/amo/components/PermissionsCard/permissions.js:75
+msgid "Personally identifying information"
+msgstr "מידע המאפשר זיהוי אישי"
+
+#: src/amo/components/PermissionsCard/permissions.js:78
+msgid "Search terms"
+msgstr "מונחי חיפוש"
+
+#: src/amo/components/PermissionsCard/permissions.js:79
+msgid "Technical and interaction data"
+msgstr "נתונים טכניים ונתוני אינטראקציה"
+
+#: src/amo/components/PermissionsCard/permissions.js:80
+msgid "Website activity"
+msgstr "פעילות אתר"
+
+#: src/amo/components/PermissionsCard/permissions.js:81
+msgid "Website content"
+msgstr "תוכן אתר"
+
+#: src/amo/components/PermissionsCard/permissions.js:85
+msgid "The developer says this extension doesn't require data collection."
+msgstr "המפתח אומר שהרחבה זו אינה דורשת איסוף נתונים."
 
 #: src/amo/components/PromotedBadge/index.js:42
 msgid "Official add-on built by Mozilla Firefox. Meets security and performance standards."
@@ -3116,10 +3180,6 @@ msgstr "פרופיל משתמש עבור %(user)s"
 msgid "User Profile"
 msgstr "פרופיל משתמש"
 
-#: src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
-msgid "Location"
-msgstr "מיקום"
-
 #: src/amo/pages/UserProfile/index.js:379 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Occupation"
 msgstr "עיסוק"
@@ -3327,17 +3387,17 @@ msgid "(no name)"
 msgstr "(ללא שם)"
 
 #. This is application compatibility information, such as "firefox 41 and later"
-#: src/amo/reducers/versions.js:305
+#: src/amo/reducers/versions.js:307
 msgid "%(application)s %(minVersion)s and later"
 msgstr "‏%(application)s %(minVersion)s ומעלה"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
-#: src/amo/reducers/versions.js:309
+#: src/amo/reducers/versions.js:311
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "‏%(application)s %(minVersion)s עד %(maxVersion)s"
 
 #. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
-#: src/amo/reducers/versions.js:329
+#: src/amo/reducers/versions.js:331
 msgid "Works with %(listOfApplicatonsAndVersions)s"
 msgstr "עובד עם %(listOfApplicatonsAndVersions)s"
 

@@ -640,19 +640,19 @@ msgstr "Εγκατάσταση θέματος"
 msgid "Add to Firefox"
 msgstr "Προσθήκη στο Firefox"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Πρόσθετα για το Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s – Πρόσθετα για το Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Πρόσθετα για το Firefox Android (%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s – Πρόσθετα για το Firefox Android (%(locale)s)"
 
@@ -1636,7 +1636,7 @@ msgstr "Προτεινόμενο"
 msgid "Download file"
 msgstr "Λήψη αρχείου"
 
-#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:68
+#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:91
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
@@ -1664,109 +1664,173 @@ msgstr "Επόμενη"
 msgid "Page %(thisPage)s of %(totalPages)s"
 msgstr "Σελίδα %(thisPage)s από %(totalPages)s"
 
-#: src/amo/components/PermissionsCard/index.js:59
-msgid "Permissions"
-msgstr "Δικαιώματα"
-
-#: src/amo/components/PermissionsCard/index.js:84
+#: src/amo/components/PermissionsCard/index.js:107
 msgid "Required permissions:"
-msgstr ""
+msgstr "Απαιτούμενα δικαιώματα:"
 
-#: src/amo/components/PermissionsCard/index.js:94
+#: src/amo/components/PermissionsCard/index.js:117
 msgid "Optional permissions:"
-msgstr ""
+msgstr "Προαιρετικά δικαιώματα:"
 
-#: src/amo/components/PermissionsCard/permissions.js:27
+#: src/amo/components/PermissionsCard/index.js:137
+msgid "Optional data collection, according to the developer:"
+msgstr "Προαιρετική συλλογή δεδομένων, σύμφωνα με τον δημιουργό:"
+
+#: src/amo/components/PermissionsCard/index.js:77
+msgid "Data collection:"
+msgstr "Συλλογή δεδομένων:"
+
+#: src/amo/components/PermissionsCard/index.js:78
+msgid "Required data collection, according to the developer:"
+msgstr "Απαιτούμενη συλλογή δεδομένων, σύμφωνα με τον δημιουργό:"
+
+#: src/amo/components/PermissionsCard/index.js:82
+msgid "Permissions and data"
+msgstr "Δικαιώματα και δεδομένα"
+
+#: src/amo/components/PermissionsCard/permissions.js:29
 msgid "Read and modify bookmarks"
 msgstr "Κάνει ανάγνωση και τροποποίηση σελιδοδεικτών"
 
-#: src/amo/components/PermissionsCard/permissions.js:28
+#: src/amo/components/PermissionsCard/permissions.js:30
 msgid "Read and modify browser settings"
 msgstr "Κάνει ανάγνωση και τροποποίηση των ρυθμίσεων του προγράμματος περιήγησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:29
+#: src/amo/components/PermissionsCard/permissions.js:31
 msgid "Clear recent browsing history, cookies, and related data"
 msgstr "Διαγράψτε το πρόσφατο ιστορικό περιήγησης, τα cookie και τα σχετικά δεδομένα"
 
-#: src/amo/components/PermissionsCard/permissions.js:32
+#: src/amo/components/PermissionsCard/permissions.js:34
 msgid "Get data from the clipboard"
 msgstr "Κάνει λήψη δεδομένων από το πρόχειρο"
 
-#: src/amo/components/PermissionsCard/permissions.js:33
+#: src/amo/components/PermissionsCard/permissions.js:35
 msgid "Input data to the clipboard"
 msgstr "Κάνει εισαγωγή δεδομένων στο πρόχειρο"
 
-#: src/amo/components/PermissionsCard/permissions.js:34
+#: src/amo/components/PermissionsCard/permissions.js:36
 msgid "Block content on any page"
 msgstr "Φραγή περιεχομένου σε οποιαδήποτε σελίδα"
 
-#: src/amo/components/PermissionsCard/permissions.js:35
+#: src/amo/components/PermissionsCard/permissions.js:37
 msgid "Read your browsing history"
 msgstr "Ανάγνωση του ιστορικού περιήγησής σας"
 
-#: src/amo/components/PermissionsCard/permissions.js:36
+#: src/amo/components/PermissionsCard/permissions.js:38
 msgid "Extend developer tools to access your data in open tabs"
 msgstr "Κάνει επέκταση των εργαλείων προγραμματιστή για πρόσβαση στα δεδομένα σας στις ανοικτές καρτέλες"
 
-#: src/amo/components/PermissionsCard/permissions.js:39
+#: src/amo/components/PermissionsCard/permissions.js:41
 msgid "Download files and read and modify the browser’s download history"
 msgstr "Κάνει λήψη αρχείων και ανάγνωση/τροποποίηση ιστορικού λήψεων του προγράμματος περιήγησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:42
+#: src/amo/components/PermissionsCard/permissions.js:44
 msgid "Open files downloaded to your computer"
 msgstr "Κάνει άνοιγμα ληφθέντων αρχείων του υπολογιστή σας"
 
-#: src/amo/components/PermissionsCard/permissions.js:43
+#: src/amo/components/PermissionsCard/permissions.js:45
 msgid "Read the text of all open tabs"
 msgstr "Κάνει ανάγνωση κειμένων όλων των ανοικτών καρτελών"
 
-#: src/amo/components/PermissionsCard/permissions.js:44
+#: src/amo/components/PermissionsCard/permissions.js:46
 msgid "Access your location"
 msgstr "Έχει πρόσβαση στην τοποθεσία σας"
 
-#: src/amo/components/PermissionsCard/permissions.js:45 src/amo/components/PermissionsCard/permissions.js:59
+#: src/amo/components/PermissionsCard/permissions.js:47 src/amo/components/PermissionsCard/permissions.js:61
 msgid "Access browsing history"
 msgstr "Έχει πρόσβαση στο ιστορικό περιήγησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:46
+#: src/amo/components/PermissionsCard/permissions.js:48
 msgid "Monitor extension usage and manage themes"
 msgstr "Κάνει εποπτεία χρήσης επεκτάσεων και διαχείριση θεμάτων"
 
-#: src/amo/components/PermissionsCard/permissions.js:49
+#: src/amo/components/PermissionsCard/permissions.js:51
 msgid "Exchange messages with programs other than Firefox"
 msgstr "Κάνει ανταλλαγή μηνυμάτων με προγράμματα εκτός του Firefox"
 
-#: src/amo/components/PermissionsCard/permissions.js:52
+#: src/amo/components/PermissionsCard/permissions.js:54
 msgid "Display notifications to you"
 msgstr "Κάνει εμφάνιση ειδοποιήσεων σε εσάς"
 
-#: src/amo/components/PermissionsCard/permissions.js:53
+#: src/amo/components/PermissionsCard/permissions.js:55
 msgid "Provide cryptographic authentication services"
 msgstr "Παρέχει κρυπτογραφικές υπηρεσίες ταυτοποίησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:54
+#: src/amo/components/PermissionsCard/permissions.js:56
 msgid "Control browser proxy settings"
 msgstr "Κάνει έλεγχο ρυθμίσεων μεσολάβησης προγράμματος περιήγησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:55
+#: src/amo/components/PermissionsCard/permissions.js:57
 msgid "Read and modify privacy settings"
 msgstr "Κάνει ανάγνωση και τροποποίηση ρυθμίσεων απορρήτου"
 
-#: src/amo/components/PermissionsCard/permissions.js:56
+#: src/amo/components/PermissionsCard/permissions.js:58
 msgid "Access recently closed tabs"
 msgstr "Έχει πρόσβαση στις πρόσφατα κλεισμένες καρτέλες"
 
-#: src/amo/components/PermissionsCard/permissions.js:57
+#: src/amo/components/PermissionsCard/permissions.js:59
 msgid "Access browser tabs"
 msgstr "Έχει πρόσβαση στις καρτέλες περιήγησης"
 
-#: src/amo/components/PermissionsCard/permissions.js:58
+#: src/amo/components/PermissionsCard/permissions.js:60
 msgid "Hide and show browser tabs"
 msgstr "Κάνει απόκρυψη και εμφάνιση καρτελών"
 
-#: src/amo/components/PermissionsCard/permissions.js:60
+#: src/amo/components/PermissionsCard/permissions.js:62
 msgid "Access browser activity during navigation"
 msgstr "Έχει πρόσβαση στη δραστηριότητα του προγράμματος περιήγησης κατά την περιήγηση"
+
+#: src/amo/components/PermissionsCard/permissions.js:66
+msgid "Authentication information"
+msgstr "Πληροφορίες ταυτοποίησης"
+
+#: src/amo/components/PermissionsCard/permissions.js:67
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: src/amo/components/PermissionsCard/permissions.js:68
+msgid "Browsing activity"
+msgstr "Δραστηριότητα περιήγησης"
+
+#: src/amo/components/PermissionsCard/permissions.js:69
+msgid "Financial and payment information"
+msgstr "Οικονομικά στοιχεία και πληροφορίες πληρωμών"
+
+#: src/amo/components/PermissionsCard/permissions.js:72
+msgid "Health information"
+msgstr "Πληροφορίες υγείας"
+
+#: src/amo/components/PermissionsCard/permissions.js:73 src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: src/amo/components/PermissionsCard/permissions.js:74
+msgid "Personal communications"
+msgstr "Προσωπικές επικοινωνίες"
+
+#: src/amo/components/PermissionsCard/permissions.js:75
+msgid "Personally identifying information"
+msgstr "Δεδομένα προσωπικού χαρακτήρα"
+
+#: src/amo/components/PermissionsCard/permissions.js:78
+msgid "Search terms"
+msgstr "Όρους αναζήτησης"
+
+#: src/amo/components/PermissionsCard/permissions.js:79
+msgid "Technical and interaction data"
+msgstr "Τεχνικά δεδομένα και δεδομένα αλληλεπίδρασης"
+
+#: src/amo/components/PermissionsCard/permissions.js:80
+msgid "Website activity"
+msgstr "Δραστηριότητα ιστοτόπων"
+
+#: src/amo/components/PermissionsCard/permissions.js:81
+msgid "Website content"
+msgstr "Περιεχόμενο ιστοτόπων"
+
+#: src/amo/components/PermissionsCard/permissions.js:85
+msgid "The developer says this extension doesn't require data collection."
+msgstr "Ο δημιουργός δηλώνει ότι αυτή η επέκταση δεν απαιτεί συλλογή δεδομένων."
 
 #: src/amo/components/PromotedBadge/index.js:42
 msgid "Official add-on built by Mozilla Firefox. Meets security and performance standards."
@@ -3156,10 +3220,6 @@ msgstr "Προφίλ του χρήστη %(user)s"
 msgid "User Profile"
 msgstr "Προφίλ χρήστη"
 
-#: src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
-msgid "Location"
-msgstr "Τοποθεσία"
-
 #: src/amo/pages/UserProfile/index.js:379 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Occupation"
 msgstr "Επάγγελμα"
@@ -3377,17 +3437,17 @@ msgid "(no name)"
 msgstr "(χωρίς όνομα)"
 
 #. This is application compatibility information, such as "firefox 41 and later"
-#: src/amo/reducers/versions.js:305
+#: src/amo/reducers/versions.js:307
 msgid "%(application)s %(minVersion)s and later"
 msgstr "%(application)s %(minVersion)s και νεότερα"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
-#: src/amo/reducers/versions.js:309
+#: src/amo/reducers/versions.js:311
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "%(application)s %(minVersion)s έως %(maxVersion)s"
 
 #. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
-#: src/amo/reducers/versions.js:329
+#: src/amo/reducers/versions.js:331
 msgid "Works with %(listOfApplicatonsAndVersions)s"
 msgstr "Λειτουργεί με %(listOfApplicatonsAndVersions)s"
 

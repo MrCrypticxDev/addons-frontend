@@ -635,19 +635,19 @@ msgstr "テーマをインストール"
 msgid "Add to Firefox"
 msgstr "Firefox へ追加"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Firefox (%(locale)s) 向けアドオン"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s – Firefox (%(locale)s) 向けアドオン"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Firefox Android (%(locale)s) 向けアドオン"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s – Firefox Android (%(locale)s) 向けアドオン"
 
@@ -896,6 +896,8 @@ msgid ""
 "Try visiting the page later, as the theme or extension may become available again. Alternatively, you may be able to find what you’re looking for in one of the available "
 "%(extensionStart)sextensions%(extensionEnd)s or %(themeStart)sthemes%(themeEnd)s, or by asking for help on our %(communityStart)scommunity forums%(communityEnd)s."
 msgstr ""
+"テーマまたは拡張機能が再び利用可能になる可能性があるため、しばらくしてからページにアクセスしてみてください。または、利用可能な %(extensionStart)s拡張機能%(extensionEnd)s または %(themeStart)sテーマ%(themeEnd)s "
+"のいずれかで探しているものが見つかるかもしれません。あるいは、%(communityStart)sコミュニティフォーラム%(communityEnd)s で質問することでも見つかるかもしれません。"
 
 #: src/amo/components/Errors/NotFound/index.js:78
 msgid "Oops! We can’t find that page"
@@ -1613,7 +1615,7 @@ msgstr "おすすめ"
 msgid "Download file"
 msgstr "ファイルをダウンロード"
 
-#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:68
+#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:91
 msgid "Learn more"
 msgstr "詳細情報"
 
@@ -1641,109 +1643,173 @@ msgstr "次へ"
 msgid "Page %(thisPage)s of %(totalPages)s"
 msgstr "%(totalPages)s ページ中 %(thisPage)s ページ目"
 
-#: src/amo/components/PermissionsCard/index.js:59
-msgid "Permissions"
-msgstr "権限"
-
-#: src/amo/components/PermissionsCard/index.js:84
+#: src/amo/components/PermissionsCard/index.js:107
 msgid "Required permissions:"
-msgstr ""
+msgstr "必要な権限:"
 
-#: src/amo/components/PermissionsCard/index.js:94
+#: src/amo/components/PermissionsCard/index.js:117
 msgid "Optional permissions:"
+msgstr "任意の許可設定:"
+
+#: src/amo/components/PermissionsCard/index.js:137
+msgid "Optional data collection, according to the developer:"
 msgstr ""
 
-#: src/amo/components/PermissionsCard/permissions.js:27
+#: src/amo/components/PermissionsCard/index.js:77
+msgid "Data collection:"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/index.js:78
+msgid "Required data collection, according to the developer:"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/index.js:82
+msgid "Permissions and data"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:29
 msgid "Read and modify bookmarks"
 msgstr "ブックマークの読み取りと変更"
 
-#: src/amo/components/PermissionsCard/permissions.js:28
+#: src/amo/components/PermissionsCard/permissions.js:30
 msgid "Read and modify browser settings"
 msgstr "ブラウザー設定の読み取りと変更"
 
-#: src/amo/components/PermissionsCard/permissions.js:29
+#: src/amo/components/PermissionsCard/permissions.js:31
 msgid "Clear recent browsing history, cookies, and related data"
 msgstr "最近のブラウジング履歴、Cookie とその関連データの消去"
 
-#: src/amo/components/PermissionsCard/permissions.js:32
+#: src/amo/components/PermissionsCard/permissions.js:34
 msgid "Get data from the clipboard"
 msgstr "クリップボードからのデータ取得"
 
-#: src/amo/components/PermissionsCard/permissions.js:33
+#: src/amo/components/PermissionsCard/permissions.js:35
 msgid "Input data to the clipboard"
 msgstr "クリップボードへのデータ入力"
 
-#: src/amo/components/PermissionsCard/permissions.js:34
+#: src/amo/components/PermissionsCard/permissions.js:36
 msgid "Block content on any page"
 msgstr "任意のページのコンテンツをブロックする"
 
-#: src/amo/components/PermissionsCard/permissions.js:35
+#: src/amo/components/PermissionsCard/permissions.js:37
 msgid "Read your browsing history"
 msgstr "閲覧履歴の読み取り"
 
-#: src/amo/components/PermissionsCard/permissions.js:36
+#: src/amo/components/PermissionsCard/permissions.js:38
 msgid "Extend developer tools to access your data in open tabs"
 msgstr "開いたタブのユーザーデータへアクセスするため開発ツールを展開"
 
-#: src/amo/components/PermissionsCard/permissions.js:39
+#: src/amo/components/PermissionsCard/permissions.js:41
 msgid "Download files and read and modify the browser’s download history"
 msgstr "ファイルのダウンロードおよびブラウザーのダウンロード履歴の読み取りと変更"
 
-#: src/amo/components/PermissionsCard/permissions.js:42
+#: src/amo/components/PermissionsCard/permissions.js:44
 msgid "Open files downloaded to your computer"
 msgstr "コンピューターにダウンロードされたファイルを開く"
 
-#: src/amo/components/PermissionsCard/permissions.js:43
+#: src/amo/components/PermissionsCard/permissions.js:45
 msgid "Read the text of all open tabs"
 msgstr "開いているすべてのタブからのテキスト読み取り"
 
-#: src/amo/components/PermissionsCard/permissions.js:44
+#: src/amo/components/PermissionsCard/permissions.js:46
 msgid "Access your location"
 msgstr "位置情報へのアクセス"
 
-#: src/amo/components/PermissionsCard/permissions.js:45 src/amo/components/PermissionsCard/permissions.js:59
+#: src/amo/components/PermissionsCard/permissions.js:47 src/amo/components/PermissionsCard/permissions.js:61
 msgid "Access browsing history"
 msgstr "ブラウジング履歴へアクセス"
 
-#: src/amo/components/PermissionsCard/permissions.js:46
+#: src/amo/components/PermissionsCard/permissions.js:48
 msgid "Monitor extension usage and manage themes"
 msgstr "拡張機能の使用状況の監視とテーマの管理"
 
-#: src/amo/components/PermissionsCard/permissions.js:49
+#: src/amo/components/PermissionsCard/permissions.js:51
 msgid "Exchange messages with programs other than Firefox"
 msgstr "Firefox 以外のプログラムとのメッセージ交換"
 
-#: src/amo/components/PermissionsCard/permissions.js:52
+#: src/amo/components/PermissionsCard/permissions.js:54
 msgid "Display notifications to you"
 msgstr "通知の表示"
 
-#: src/amo/components/PermissionsCard/permissions.js:53
+#: src/amo/components/PermissionsCard/permissions.js:55
 msgid "Provide cryptographic authentication services"
 msgstr "暗号認証サービスの提供"
 
-#: src/amo/components/PermissionsCard/permissions.js:54
+#: src/amo/components/PermissionsCard/permissions.js:56
 msgid "Control browser proxy settings"
 msgstr "ブラウザーのプロキシ設定の管理"
 
-#: src/amo/components/PermissionsCard/permissions.js:55
+#: src/amo/components/PermissionsCard/permissions.js:57
 msgid "Read and modify privacy settings"
 msgstr "プライバシー設定の読み取りと変更"
 
-#: src/amo/components/PermissionsCard/permissions.js:56
+#: src/amo/components/PermissionsCard/permissions.js:58
 msgid "Access recently closed tabs"
 msgstr "最近閉じられたタブへのアクセス"
 
-#: src/amo/components/PermissionsCard/permissions.js:57
+#: src/amo/components/PermissionsCard/permissions.js:59
 msgid "Access browser tabs"
 msgstr "ブラウザーのタブへのアクセス"
 
-#: src/amo/components/PermissionsCard/permissions.js:58
+#: src/amo/components/PermissionsCard/permissions.js:60
 msgid "Hide and show browser tabs"
 msgstr "ブラウザーのタブの表示状態の変更"
 
-#: src/amo/components/PermissionsCard/permissions.js:60
+#: src/amo/components/PermissionsCard/permissions.js:62
 msgid "Access browser activity during navigation"
 msgstr "ナビゲーション中のブラウザーアクティビティへのアクセス"
+
+#: src/amo/components/PermissionsCard/permissions.js:66
+msgid "Authentication information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:67
+msgid "Bookmarks"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:68
+msgid "Browsing activity"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:69
+msgid "Financial and payment information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:72
+msgid "Health information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:73 src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
+msgid "Location"
+msgstr "所在地"
+
+#: src/amo/components/PermissionsCard/permissions.js:74
+msgid "Personal communications"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:75
+msgid "Personally identifying information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:78
+msgid "Search terms"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:79
+msgid "Technical and interaction data"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:80
+msgid "Website activity"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:81
+msgid "Website content"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:85
+msgid "The developer says this extension doesn't require data collection."
+msgstr ""
 
 #: src/amo/components/PromotedBadge/index.js:42
 msgid "Official add-on built by Mozilla Firefox. Meets security and performance standards."
@@ -2472,33 +2538,33 @@ msgstr "このアドオンは Mozilla ポリシーに違反しているため制
 
 #: src/amo/pages/Block/index.js:137
 msgid "%(addonName)s is blocked for violating Mozilla policies"
-msgstr ""
+msgstr "%(addonName)s は Mozilla ポリシーに違反しているためブロックされています"
 
 #: src/amo/pages/Block/index.js:144
 msgid "This add-on is blocked for violating Mozilla policies"
-msgstr ""
+msgstr "このアドオンは Mozilla ポリシーに違反しているためブロックされています"
 
 #: src/amo/pages/Block/index.js:158
 msgid "Why did this happen?"
-msgstr ""
+msgstr "このような問題が起きた理由は？"
 
 #: src/amo/pages/Block/index.js:163
 msgid "This extension, theme, or plugin violates %(startLink)sMozilla's add-on policies%(endLink)s."
-msgstr ""
+msgstr "この拡張機能、テーマ、またはプラグインは、%(startLink)sMozilla のアドオンポリシー%(endLink)s に違反しています。"
 
 #: src/amo/pages/Block/index.js:175
 msgid "What does this mean?"
-msgstr ""
+msgstr "これはどういう意味ですか？"
 
 #: src/amo/pages/Block/index.js:178
 msgid ""
 "Until the violation is resolved, this add-on won't be available for download from addons.mozilla.org. If it’s already installed, it will be disabled and users will be informed about the violation. "
 "They may choose to enable the add-on again at their own risk."
-msgstr ""
+msgstr "違反が解決されるまで、このアドオンは addons.mozilla.org からダウンロードできません。すでにインストールされている場合は無効化され、ユーザーには違反について通知されます。ユーザーは自己責任でアドオンを再度有効化することができます。"
 
 #: src/amo/pages/Block/index.js:183
 msgid "Until the violation is resolved, this add-on won't be available for download from addons.mozilla.org. It will be automatically disabled and no longer usable in Firefox."
-msgstr ""
+msgstr "違反が解決されるまで、このアドオンは addons.mozilla.org からダウンロードできなくなります。自動的に無効化され、Firefox で使用できなくなります。"
 
 #: src/amo/pages/Block/index.js:189
 msgid "How does Mozilla enforce its policies?"
@@ -3056,10 +3122,6 @@ msgstr "%(user)s のユーザープロフィール"
 msgid "User Profile"
 msgstr "ユーザープロファイル"
 
-#: src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
-msgid "Location"
-msgstr "所在地"
-
 #: src/amo/pages/UserProfile/index.js:379 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Occupation"
 msgstr "職業"
@@ -3163,7 +3225,7 @@ msgstr ""
 
 #: src/amo/pages/UserProfileEdit/index.js:634
 msgid "Manage Mozilla accounts…"
-msgstr ""
+msgstr "Mozilla アカウントを管理..."
 
 #: src/amo/pages/UserProfileEdit/index.js:642
 msgid "Profile"
@@ -3267,17 +3329,17 @@ msgid "(no name)"
 msgstr "(名前なし)"
 
 #. This is application compatibility information, such as "firefox 41 and later"
-#: src/amo/reducers/versions.js:305
+#: src/amo/reducers/versions.js:307
 msgid "%(application)s %(minVersion)s and later"
 msgstr "%(application)s バージョン %(minVersion)s 以降"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
-#: src/amo/reducers/versions.js:309
+#: src/amo/reducers/versions.js:311
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "%(application)s バージョン %(minVersion)s から %(maxVersion)s"
 
 #. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
-#: src/amo/reducers/versions.js:329
+#: src/amo/reducers/versions.js:331
 msgid "Works with %(listOfApplicatonsAndVersions)s"
 msgstr "%(listOfApplicatonsAndVersions)s で動作"
 

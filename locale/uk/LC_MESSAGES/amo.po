@@ -645,19 +645,19 @@ msgstr "Встановити тему"
 msgid "Add to Firefox"
 msgstr "Додати до Firefox"
 
-#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:93
+#: src/amo/components/App/index.js:122 src/amo/components/HeadMetaTags/index.js:91
 msgid "Add-ons for Firefox (%(locale)s)"
 msgstr "Додатки для Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:87
+#: src/amo/components/App/index.js:126 src/amo/components/HeadMetaTags/index.js:85
 msgid "%(title)s – Add-ons for Firefox (%(locale)s)"
 msgstr "%(title)s – Додатки для Firefox (%(locale)s)"
 
-#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:92
+#: src/amo/components/App/index.js:134 src/amo/components/HeadMetaTags/index.js:90
 msgid "Add-ons for Firefox Android (%(locale)s)"
 msgstr "Додатки для Firefox на Android (%(locale)s)"
 
-#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:86
+#: src/amo/components/App/index.js:138 src/amo/components/HeadMetaTags/index.js:84
 msgid "%(title)s – Add-ons for Firefox Android (%(locale)s)"
 msgstr "%(title)s – Додатки для Firefox на Android (%(locale)s)"
 
@@ -1643,7 +1643,7 @@ msgstr "Рекомендовані"
 msgid "Download file"
 msgstr "Завантажити файл"
 
-#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:68
+#: src/amo/components/InstallWarning/index.js:102 src/amo/components/PermissionsCard/index.js:91
 msgid "Learn more"
 msgstr "Докладніше"
 
@@ -1671,109 +1671,173 @@ msgstr "Далі"
 msgid "Page %(thisPage)s of %(totalPages)s"
 msgstr "Сторінка %(thisPage)s із %(totalPages)s"
 
-#: src/amo/components/PermissionsCard/index.js:59
-msgid "Permissions"
-msgstr "Дозволи"
-
-#: src/amo/components/PermissionsCard/index.js:84
+#: src/amo/components/PermissionsCard/index.js:107
 msgid "Required permissions:"
-msgstr ""
+msgstr "Необхідні дозволи:"
 
-#: src/amo/components/PermissionsCard/index.js:94
+#: src/amo/components/PermissionsCard/index.js:117
 msgid "Optional permissions:"
+msgstr "Необов'язкові дозволи:"
+
+#: src/amo/components/PermissionsCard/index.js:137
+msgid "Optional data collection, according to the developer:"
 msgstr ""
 
-#: src/amo/components/PermissionsCard/permissions.js:27
+#: src/amo/components/PermissionsCard/index.js:77
+msgid "Data collection:"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/index.js:78
+msgid "Required data collection, according to the developer:"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/index.js:82
+msgid "Permissions and data"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:29
 msgid "Read and modify bookmarks"
 msgstr "Читати й змінювати закладки"
 
-#: src/amo/components/PermissionsCard/permissions.js:28
+#: src/amo/components/PermissionsCard/permissions.js:30
 msgid "Read and modify browser settings"
 msgstr "Читати й змінювати налаштування браузера"
 
-#: src/amo/components/PermissionsCard/permissions.js:29
+#: src/amo/components/PermissionsCard/permissions.js:31
 msgid "Clear recent browsing history, cookies, and related data"
 msgstr "Стирати нещодавню історію перегляду, файли cookie та пов'язані дані"
 
-#: src/amo/components/PermissionsCard/permissions.js:32
+#: src/amo/components/PermissionsCard/permissions.js:34
 msgid "Get data from the clipboard"
 msgstr "Отримувати дані з буфера обміну"
 
-#: src/amo/components/PermissionsCard/permissions.js:33
+#: src/amo/components/PermissionsCard/permissions.js:35
 msgid "Input data to the clipboard"
 msgstr "Збереження даних в буфер обміну"
 
-#: src/amo/components/PermissionsCard/permissions.js:34
+#: src/amo/components/PermissionsCard/permissions.js:36
 msgid "Block content on any page"
 msgstr "Блокувати вміст на всіх сторінках"
 
-#: src/amo/components/PermissionsCard/permissions.js:35
+#: src/amo/components/PermissionsCard/permissions.js:37
 msgid "Read your browsing history"
 msgstr "Читати історію перегляду"
 
-#: src/amo/components/PermissionsCard/permissions.js:36
+#: src/amo/components/PermissionsCard/permissions.js:38
 msgid "Extend developer tools to access your data in open tabs"
 msgstr "Розширте інструменти розробника для доступу до своїх даних у відкритих вкладках"
 
-#: src/amo/components/PermissionsCard/permissions.js:39
+#: src/amo/components/PermissionsCard/permissions.js:41
 msgid "Download files and read and modify the browser’s download history"
 msgstr "Завантажувати файли, а також читати й змінювати історію браузера"
 
-#: src/amo/components/PermissionsCard/permissions.js:42
+#: src/amo/components/PermissionsCard/permissions.js:44
 msgid "Open files downloaded to your computer"
 msgstr "Відкривати файли, завантажені на ваш комп'ютер"
 
-#: src/amo/components/PermissionsCard/permissions.js:43
+#: src/amo/components/PermissionsCard/permissions.js:45
 msgid "Read the text of all open tabs"
 msgstr "Читати текст у всіх відкритих вкладках"
 
-#: src/amo/components/PermissionsCard/permissions.js:44
+#: src/amo/components/PermissionsCard/permissions.js:46
 msgid "Access your location"
 msgstr "Отримувати доступ до вашого розташування"
 
-#: src/amo/components/PermissionsCard/permissions.js:45 src/amo/components/PermissionsCard/permissions.js:59
+#: src/amo/components/PermissionsCard/permissions.js:47 src/amo/components/PermissionsCard/permissions.js:61
 msgid "Access browsing history"
 msgstr "Доступ до історії перегляду"
 
-#: src/amo/components/PermissionsCard/permissions.js:46
+#: src/amo/components/PermissionsCard/permissions.js:48
 msgid "Monitor extension usage and manage themes"
 msgstr "Спостерігати за використанням додатків і керувати темами"
 
-#: src/amo/components/PermissionsCard/permissions.js:49
+#: src/amo/components/PermissionsCard/permissions.js:51
 msgid "Exchange messages with programs other than Firefox"
 msgstr "Обмінюватися повідомленнями з іншими програмами, окрім Firefox"
 
-#: src/amo/components/PermissionsCard/permissions.js:52
+#: src/amo/components/PermissionsCard/permissions.js:54
 msgid "Display notifications to you"
 msgstr "Показувати сповіщення"
 
-#: src/amo/components/PermissionsCard/permissions.js:53
+#: src/amo/components/PermissionsCard/permissions.js:55
 msgid "Provide cryptographic authentication services"
 msgstr "Надання послуг криптографічної автентифікації"
 
-#: src/amo/components/PermissionsCard/permissions.js:54
+#: src/amo/components/PermissionsCard/permissions.js:56
 msgid "Control browser proxy settings"
 msgstr "Керувати налаштуваннями проксі браузера"
 
-#: src/amo/components/PermissionsCard/permissions.js:55
+#: src/amo/components/PermissionsCard/permissions.js:57
 msgid "Read and modify privacy settings"
 msgstr "Читати й змінювати налаштування приватності"
 
-#: src/amo/components/PermissionsCard/permissions.js:56
+#: src/amo/components/PermissionsCard/permissions.js:58
 msgid "Access recently closed tabs"
 msgstr "Отримувати доступ до нещодавно закритих вкладок"
 
-#: src/amo/components/PermissionsCard/permissions.js:57
+#: src/amo/components/PermissionsCard/permissions.js:59
 msgid "Access browser tabs"
 msgstr "Отримувати доступ до вкладок браузера"
 
-#: src/amo/components/PermissionsCard/permissions.js:58
+#: src/amo/components/PermissionsCard/permissions.js:60
 msgid "Hide and show browser tabs"
 msgstr "Приховувати й показувати вкладки браузера"
 
-#: src/amo/components/PermissionsCard/permissions.js:60
+#: src/amo/components/PermissionsCard/permissions.js:62
 msgid "Access browser activity during navigation"
 msgstr "Отримувати доступ до активності браузера під час навігації"
+
+#: src/amo/components/PermissionsCard/permissions.js:66
+msgid "Authentication information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:67
+msgid "Bookmarks"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:68
+msgid "Browsing activity"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:69
+msgid "Financial and payment information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:72
+msgid "Health information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:73 src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
+msgid "Location"
+msgstr "Розташування"
+
+#: src/amo/components/PermissionsCard/permissions.js:74
+msgid "Personal communications"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:75
+msgid "Personally identifying information"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:78
+msgid "Search terms"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:79
+msgid "Technical and interaction data"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:80
+msgid "Website activity"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:81
+msgid "Website content"
+msgstr ""
+
+#: src/amo/components/PermissionsCard/permissions.js:85
+msgid "The developer says this extension doesn't require data collection."
+msgstr ""
 
 #: src/amo/components/PromotedBadge/index.js:42
 msgid "Official add-on built by Mozilla Firefox. Meets security and performance standards."
@@ -3171,10 +3235,6 @@ msgstr "Профіль користувача для %(user)s"
 msgid "User Profile"
 msgstr "Профіль користувача"
 
-#: src/amo/pages/UserProfile/index.js:371 src/amo/pages/UserProfileEdit/index.js:693
-msgid "Location"
-msgstr "Розташування"
-
 #: src/amo/pages/UserProfile/index.js:379 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Occupation"
 msgstr "Заняття"
@@ -3391,17 +3451,17 @@ msgid "(no name)"
 msgstr "(без назви)"
 
 #. This is application compatibility information, such as "firefox 41 and later"
-#: src/amo/reducers/versions.js:305
+#: src/amo/reducers/versions.js:307
 msgid "%(application)s %(minVersion)s and later"
 msgstr "%(application)s %(minVersion)s і новіше"
 
 #. This is application compatibility information, such as "firefox 41 to 45"
-#: src/amo/reducers/versions.js:309
+#: src/amo/reducers/versions.js:311
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "%(application)s від %(minVersion)s до %(maxVersion)s"
 
 #. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
-#: src/amo/reducers/versions.js:329
+#: src/amo/reducers/versions.js:331
 msgid "Works with %(listOfApplicatonsAndVersions)s"
 msgstr "Працює з %(listOfApplicatonsAndVersions)s"
 
