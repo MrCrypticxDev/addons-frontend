@@ -1773,7 +1773,7 @@ msgstr "로그인하여 이 부가 기능의 평점을 남겨주세요"
 #. This is shown on the rating manager of an add-on detail page when the site is put in read-only mode (for maintenance), which prevents users from rating said add-on.
 #: src/amo/components/RatingManager/index.js:185
 msgid "Add-on ratings are temporarily disabled."
-msgstr ""
+msgstr "부가 기능 평가가 일시적으로 비활성화되었습니다."
 
 #: src/amo/components/RatingManager/index.js:195
 msgid "Click to rate:"
@@ -2496,7 +2496,7 @@ msgstr "%(addonName)s 부가 기능은 작성자에 의해 삭제되었기 때�
 
 #: src/amo/pages/Block/index.js:165
 msgid "This add-on is restricted because it was deleted by the author(s)"
-msgstr ""
+msgstr "이 부가 기능은 작성자에 의해 삭제되었기 때문에 사용할 수 없습니다."
 
 #: src/amo/pages/Block/index.js:172
 msgid "%(addonName)s is restricted for violating Mozilla policies"
@@ -2520,7 +2520,7 @@ msgstr "왜 이런 일이 일어났나요?"
 
 #: src/amo/pages/Block/index.js:212
 msgid "The version of this extension, theme, or plugin was deleted by the author(s) and has therefore been restricted by Mozilla."
-msgstr ""
+msgstr "이 확장 기능, 테마, 또는 플러그인의 버전이 작성자에 의해 삭제되었으므로 Mozilla에서 사용을 제한했습니다."
 
 #: src/amo/pages/Block/index.js:221
 msgid "This extension, theme, or plugin violates %(startLink)sMozilla's add-on policies%(endLink)s."
@@ -2539,6 +2539,7 @@ msgid ""
 "When the author deletes their add-on, it's no longer maintained or updated, which could compromise Firefox security, stability, or performance. To prevent this, the add-on will be restricted from "
 "general use to protect Firefox users. For more information, please read %(supportStartLink)sthis support article%(supportEndLink)s."
 msgstr ""
+"작성자가 부가 기능을 삭제하면, 해당 부가 기능은 더 이상 유지보수 및 업데이트되지 않으므로 Firefox의 보안, 안정성, 성능을 저하시킬 수 있습니다. 이를 막기 위해, 일반적인 사용을 제한하여 Firefox 사용자를 보호하게 됩니다. 자세한 내용은 %(supportStartLink)s이 도움말 문서%(supportEndLink)s를 확인하세요."
 
 #: src/amo/pages/Block/index.js:263
 msgid "How does Mozilla enforce its policies?"
