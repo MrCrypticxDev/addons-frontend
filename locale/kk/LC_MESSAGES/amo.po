@@ -27,202 +27,202 @@ msgstr "Жаңа жинақ жасау"
 
 #: src/amo/components/AddAddonToCollection/index.js:283
 msgid "Added to %(collectionName)s"
-msgstr ""
+msgstr "%(collectionName)s жинағына қосылды"
 
 #. This is a header for a list meaning Add to [some collection name]
 #: src/amo/components/AddAddonToCollection/index.js:299
 msgid "Add to…"
-msgstr ""
+msgstr "Қайда қосу…"
 
 #. This action allows the add-on developer or an admin to edit an add-on's properties.
 #: src/amo/components/AddonAdminLinks/index.js:49 src/amo/components/AddonMoreInfo/index.js:220
 msgid "Edit add-on"
-msgstr ""
+msgstr "Қосымшаны түзету"
 
 #. This action allows an admin to maintain an add-on.
 #: src/amo/components/AddonAdminLinks/index.js:63
 msgid "Admin add-on"
-msgstr ""
+msgstr "Қосымшаға әкімшілік ету"
 
 #. This action allows a reviewer to perform a content review of an add-on.
 #: src/amo/components/AddonAdminLinks/index.js:77
 msgid "Content review add-on"
-msgstr ""
+msgstr "Қосымша мазмұнын тексеру"
 
 #. This action allows a reviewer to perform a review of a theme.
 #: src/amo/components/AddonAdminLinks/index.js:85
 msgid "Review theme"
-msgstr ""
+msgstr "Теманы тексеру"
 
 #. This action allows a reviewer to perform a review of an add-on's code.
 #: src/amo/components/AddonAdminLinks/index.js:87
 msgid "Review add-on code"
-msgstr ""
+msgstr "Қосымша кодын тексеру"
 
 #: src/amo/components/AddonBadges/index.js:136
 msgid "%(average)s (%(count)s review)"
-msgstr ""
+msgstr "%(average)s (%(count)s пікір)"
 
 #: src/amo/components/AddonBadges/index.js:140
 msgid "%(average)s (%(count)s reviews)"
-msgstr ""
+msgstr "%(average)s (%(count)s пікір)"
 
 #: src/amo/components/AddonBadges/index.js:169
 msgid "%(count)s User"
 msgid_plural "%(count)s Users"
-msgstr[0] ""
+msgstr[0] "%(count)s пайдаланушы"
 
 #: src/amo/components/AddonBadges/index.js:176
 msgid "No Users"
-msgstr ""
+msgstr "Пайдаланушылар жоқ"
 
 #: src/amo/components/AddonBadges/index.js:60
 msgid "Available on Firefox for Android™"
-msgstr ""
+msgstr "Firefox for Android™ үшін қолжетімді"
 
 #: src/amo/components/AddonBadges/index.js:76
 msgid "Experimental"
-msgstr ""
+msgstr "Эксперименттік"
 
 #: src/amo/components/AddonBadges/index.js:92
 msgid "Some features may require payment"
-msgstr ""
+msgstr "Кейбір мүмкіндіктер ақылы болуы мүмкін"
 
 #: src/amo/components/AddonCompatibilityError/index.js:91
 msgid "This add-on is not compatible with your version of Firefox."
-msgstr ""
+msgstr "Бұл қосымша сіздің Firefox нұсқаңызбен үйлесімді емес."
 
 #: src/amo/components/AddonCompatibilityError/index.js:93
 msgid "This add-on is not available on your platform."
-msgstr ""
+msgstr "Бұл қосымша сіздің платформаңыз үшін қолжетімді емес."
 
 #: src/amo/components/AddonFeedbackForm/index.js:148 src/amo/components/SearchResult/index.js:249
 msgid "%(total)s user"
 msgid_plural "%(total)s users"
-msgstr[0] ""
+msgstr[0] "%(total)s пайдаланушы"
 
 #: src/amo/components/AddonFeedbackForm/index.js:209
 msgid "Report this add-on to Mozilla"
-msgstr ""
+msgstr "Бұл қосымша жөнінде Mozilla-ға шағым түсіру"
 
 #: src/amo/components/AddonFeedbackForm/index.js:210
 msgid "Send some feedback about the add-on"
-msgstr ""
+msgstr "Қосымша туралы кері байланыс жіберу"
 
 #: src/amo/components/AddonFeedbackForm/index.js:211
 msgid "Report the add-on because it's illegal or incompliant"
-msgstr ""
+msgstr "Қосымша туралы заңсыз немесе талапқа сай емес деп шағым түсіру"
 
 #. please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:102
 msgid "%(addonName)s – Get this Extension for 🦊 Firefox (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox (%(locale)s) үшін осы кеңейтуді алу"
 
 #. please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:107
 msgid "%(addonName)s – Get this Language Pack for 🦊 Firefox (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox (%(locale)s) үшін осы тіл дестесін алу"
 
 #. please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:112
 msgid "%(addonName)s – Get this Theme for 🦊 Firefox (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox (%(locale)s) үшін осы теманы алу"
 
 #. please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:117
 msgid "%(addonName)s – Get this Add-on for 🦊 Firefox (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox (%(locale)s) үшін осы қосымшаны алу"
 
 #: src/amo/components/AddonHead/index.js:131
 msgid "Download %(addonName)s for Firefox. %(summary)s"
-msgstr ""
+msgstr "Firefox үшін %(addonName)s жүктеп алу. %(summary)s"
 
 #. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:69
 msgid "%(addonName)s – Get this Dictionary for 🦊 Firefox Android (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox Android (%(locale)s) үшін осы сөздікті алу"
 
 #. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:74
 msgid "%(addonName)s – Get this Extension for 🦊 Firefox Android (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox Android (%(locale)s) үшін осы кеңейтуді алу"
 
 #. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:79
 msgid "%(addonName)s – Get this Language Pack for 🦊 Firefox Android (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox Android (%(locale)s) үшін осы тіл дестесін алу"
 
 #. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:84
 msgid "%(addonName)s – Get this Theme for 🦊 Firefox Android (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox Android (%(locale)s) үшін осы теманы алу"
 
 #. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:90
 msgid "%(addonName)s – Get this Add-on for 🦊 Firefox Android (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox Android (%(locale)s) үшін осы қосымшаны алу"
 
 #. please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:97
 msgid "%(addonName)s – Get this Dictionary for 🦊 Firefox (%(locale)s)"
-msgstr ""
+msgstr "%(addonName)s – 🦊 Firefox (%(locale)s) үшін осы сөздікті алу"
 
 #: src/amo/components/AddonMoreInfo/index.js:155 src/amo/pages/UserProfile/index.js:361 src/amo/pages/UserProfile/index.js:364 src/amo/pages/UserProfileEdit/index.js:676
 msgid "Homepage"
-msgstr ""
+msgstr "Үй парағы"
 
 #: src/amo/components/AddonMoreInfo/index.js:172
 msgid "Support site"
-msgstr ""
+msgstr "Қолдау сайты"
 
 #: src/amo/components/AddonMoreInfo/index.js:186
 msgid "Support Email"
-msgstr ""
+msgstr "Қолдау эл. поштасы"
 
 #: src/amo/components/AddonMoreInfo/index.js:204
 msgid "Visit stats dashboard"
-msgstr ""
+msgstr "Статистика бақылау тақтасына өту"
 
 #: src/amo/components/AddonMoreInfo/index.js:242
 msgid "Custom License"
-msgstr ""
+msgstr "Пайдаланушылық лицензия"
 
 #. This will output, in English: "2 months ago (Dec 12 2016)"
 #: src/amo/components/AddonMoreInfo/index.js:287
 msgid "%(timeFromNow)s (%(date)s)"
-msgstr ""
+msgstr "%(timeFromNow)s (%(date)s)"
 
 #: src/amo/components/AddonMoreInfo/index.js:304
 msgid "Read the privacy policy for this add-on"
-msgstr ""
+msgstr "Осы қосымшаның құпиялылық саясатын оқу"
 
 #: src/amo/components/AddonMoreInfo/index.js:316
 msgid "Read the license agreement for this add-on"
-msgstr ""
+msgstr "Осы қосымшаның лицензиялық келісімін оқу"
 
 #: src/amo/components/AddonMoreInfo/index.js:329
 msgid "See all versions"
-msgstr ""
+msgstr "Барлық нұсқаларды қарау"
 
 #: src/amo/components/AddonMoreInfo/index.js:385
 msgid "Add-on Links"
-msgstr ""
+msgstr "Қосымша сілтемелері"
 
 #: src/amo/components/AddonMoreInfo/index.js:398
 msgid "Version"
-msgstr ""
+msgstr "Нұсқасы"
 
 #: src/amo/components/AddonMoreInfo/index.js:406
 msgid "Size"
-msgstr ""
+msgstr "Өлшемі"
 
 #: src/amo/components/AddonMoreInfo/index.js:414 src/amo/components/CollectionDetails/index.js:87 src/amo/pages/CollectionFeedback/index.js:159
 msgid "Last updated"
-msgstr ""
+msgstr "Соңғы жаңартылған"
 
 #: src/amo/components/AddonMoreInfo/index.js:422
 msgid "Related Categories"
-msgstr ""
+msgstr "Қатысты санаттар"
 
 #: src/amo/components/AddonMoreInfo/index.js:432
 msgid "License"
