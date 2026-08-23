@@ -1370,15 +1370,15 @@ msgstr "Opas arviointiin"
 
 #: src/amo/components/Footer/index.js:159
 msgid "Download"
-msgstr ""
+msgstr "Lataa"
 
 #: src/amo/components/Footer/index.js:223
 msgid "Latest Builds"
-msgstr ""
+msgstr "Uusimmat koontiversiot"
 
 #: src/amo/components/Footer/index.js:247
 msgid "Firefox for Business"
-msgstr ""
+msgstr "Firefox yrityksille"
 
 #: src/amo/components/Footer/index.js:263
 msgid "Community"
@@ -1746,7 +1746,7 @@ msgstr "Kehittäjän mukaan tämä laajennus ei vaadi tiedonkeruuta."
 
 #: src/amo/components/QRCard/index.js:44
 msgid "Scan the QR code to open this extension in Firefox for Android"
-msgstr ""
+msgstr "Skannaa QR-koodi avataksesi tämän laajennuksen Firefoxin Android-versiossa"
 
 #: src/amo/components/Rating/index.js:103 src/amo/components/Rating/index.js:92
 msgid "Rated %(rating)s out of 5"
@@ -2300,19 +2300,19 @@ msgstr "%(title)s esikatselu"
 
 #: src/amo/components/ThemePicker/index.js:90
 msgid "Automatic (match system)"
-msgstr ""
+msgstr "Automaattinen (sama kuin järjestelmän)"
 
 #: src/amo/components/ThemePicker/index.js:91
 msgid "Light"
-msgstr ""
+msgstr "Vaalea"
 
 #: src/amo/components/ThemePicker/index.js:92
 msgid "Dark"
-msgstr ""
+msgstr "Tumma"
 
 #: src/amo/components/ThemePicker/index.js:98
 msgid "Change theme"
-msgstr ""
+msgstr "Vaihda teemaa"
 
 #: src/amo/components/UserCollection/index.js:46
 msgid "%(total)s add-on"
