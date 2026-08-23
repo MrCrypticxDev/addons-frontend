@@ -226,248 +226,248 @@ msgstr "Қатысты санаттар"
 
 #: src/amo/components/AddonMoreInfo/index.js:432
 msgid "License"
-msgstr ""
+msgstr "Лицензия"
 
 #: src/amo/components/AddonMoreInfo/index.js:440
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Жекелік саясаты"
 
 #: src/amo/components/AddonMoreInfo/index.js:448
 msgid "End-User License Agreement"
-msgstr ""
+msgstr "Түпкі пайдаланушымен лицензиялық келісім"
 
 #: src/amo/components/AddonMoreInfo/index.js:456
 msgid "Version History"
-msgstr ""
+msgstr "Нұсқалар тарихы"
 
 #: src/amo/components/AddonMoreInfo/index.js:466
 msgid "Usage Statistics"
-msgstr ""
+msgstr "Пайдалану статистикасы"
 
 #: src/amo/components/AddonMoreInfo/index.js:474
 msgid "Tags"
-msgstr ""
+msgstr "Тегтер"
 
 #: src/amo/components/AddonMoreInfo/index.js:481 src/amo/components/CollectionAddAddon/index.js:196
 msgid "Add to collection"
-msgstr ""
+msgstr "Жинаққа қосу"
 
 #. This is a list of links to administrative functions.
 #: src/amo/components/AddonMoreInfo/index.js:491
 msgid "Admin Links"
-msgstr ""
+msgstr "Әкімші сілтемелері"
 
 #. This is a list of links to Developer functions.
 #: src/amo/components/AddonMoreInfo/index.js:503
 msgid "Author Links"
-msgstr ""
+msgstr "Автор сілтемелері"
 
 #: src/amo/components/AddonMoreInfo/index.js:524
 msgid "More information"
-msgstr ""
+msgstr "Көбірек ақпарат"
 
 #: src/amo/components/AddonRecommendations/index.js:139
 msgid "Other users with this extension also installed"
-msgstr ""
+msgstr "Бұл кеңейтуді орнатқан басқа пайдаланушылар мыналарды да орнатты"
 
 #: src/amo/components/AddonRecommendations/index.js:140
 msgid "Other popular extensions"
-msgstr ""
+msgstr "Басқа танымал кеңейтулер"
 
 #: src/amo/components/AddonReportAbuseLink/index.js:40
 msgid "You reported this add-on"
-msgstr ""
+msgstr "Сіз бұл қосымша туралы шағым түсірдіңіз"
 
 #: src/amo/components/AddonReportAbuseLink/index.js:44
 msgid "We have received your report. Thanks for letting us know about your concerns with this add-on."
-msgstr ""
+msgstr "Сізідің шағымыңыз қабылданды. Осы қосымша туралы алаңдаушылығыңызды білдіргеніңізге рахмет."
 
 #: src/amo/components/AddonReportAbuseLink/index.js:56
 msgid "Report this add-on"
-msgstr ""
+msgstr "Бұл қосымша туралы шағым түсіру"
 
 #: src/amo/components/AddonReviewCard/index.js:209
 msgid "Edit reply"
-msgstr ""
+msgstr "Жауапты түзету"
 
 #: src/amo/components/AddonReviewCard/index.js:212
 msgid "Edit review"
-msgstr ""
+msgstr "Пікірді түзету"
 
 #: src/amo/components/AddonReviewCard/index.js:219 src/amo/components/AddonReviewCard/index.js:251
 msgid "Delete reply"
-msgstr ""
+msgstr "Жауапты өшіру"
 
 #: src/amo/components/AddonReviewCard/index.js:223 src/amo/components/AddonReviewCard/index.js:255
 msgid "Delete rating"
-msgstr ""
+msgstr "Рейтингті өшіру"
 
 #: src/amo/components/AddonReviewCard/index.js:226 src/amo/components/AddonReviewCard/index.js:258
 msgid "Delete review"
-msgstr ""
+msgstr "Пікірді өшіру"
 
 #: src/amo/components/AddonReviewCard/index.js:233
 msgid "Do you really want to delete this reply?"
-msgstr ""
+msgstr "Бұл жауапты өшіру керек пе?"
 
 #: src/amo/components/AddonReviewCard/index.js:237
 msgid "Do you really want to delete this rating?"
-msgstr ""
+msgstr "Бұл рейтингті өшіру керек пе?"
 
 #: src/amo/components/AddonReviewCard/index.js:240
 msgid "Do you really want to delete this review?"
-msgstr ""
+msgstr "Бұл пікірді өшіру керек пе?"
 
 #: src/amo/components/AddonReviewCard/index.js:247 src/amo/components/DismissibleTextForm/index.js:236
 msgid "Delete"
-msgstr ""
+msgstr "Өшіру"
 
 #: src/amo/components/AddonReviewCard/index.js:265 src/amo/components/AddonReviewManager/index.js:146 src/amo/components/CollectionManager/index.js:344
 #: src/amo/components/ConfirmationDialog/index.js:61 src/amo/components/DismissibleTextForm/index.js:221 src/amo/pages/UserProfileEdit/index.js:899
 msgid "Cancel"
-msgstr ""
+msgstr "Бас тарту"
 
 #: src/amo/components/AddonReviewCard/index.js:269
 msgid "Keep reply"
-msgstr ""
+msgstr "Жауапты сақтау"
 
 #: src/amo/components/AddonReviewCard/index.js:273
 msgid "Keep rating"
-msgstr ""
+msgstr "Рейтингті сақтау"
 
 #: src/amo/components/AddonReviewCard/index.js:276
 msgid "Keep review"
-msgstr ""
+msgstr "Пікірді сақтау"
 
 #: src/amo/components/AddonReviewCard/index.js:312
 msgid "Write a reply to this review."
-msgstr ""
+msgstr "Осы пікірге жауап жазу."
 
 #: src/amo/components/AddonReviewCard/index.js:315
 msgid "Update reply"
-msgstr ""
+msgstr "Жауапты жаңарту"
 
 #: src/amo/components/AddonReviewCard/index.js:316
 msgid "Publish reply"
-msgstr ""
+msgstr "Жауапты жариялау"
 
 #: src/amo/components/AddonReviewCard/index.js:320
 msgid "Updating reply"
-msgstr ""
+msgstr "Жауап жаңартылуда"
 
 #: src/amo/components/AddonReviewCard/index.js:321
 msgid "Publishing reply"
-msgstr ""
+msgstr "Жауап жариялануда"
 
 #. Example in English: "posted last week"
 #: src/amo/components/AddonReviewCard/index.js:365
 msgid "posted %(linkStart)s%(timestamp)s%(linkEnd)s"
-msgstr ""
+msgstr "%(linkStart)s%(timestamp)s%(linkEnd)s жарияланған"
 
 #. Example in English: "by UserName123, last week"
 #: src/amo/components/AddonReviewCard/index.js:367
 msgid "by %(linkUserProfileStart)s%(authorName)s%(linkUserProfileEnd)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
-msgstr ""
+msgstr "авторы: %(linkUserProfileStart)s%(authorName)s%(linkUserProfileEnd)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
 
 #: src/amo/components/AddonReviewCard/index.js:480
 msgid "Deleting…"
-msgstr ""
+msgstr "Өшіру…"
 
 #: src/amo/components/AddonReviewCard/index.js:511
 msgid "Reply to this review"
-msgstr ""
+msgstr "Бұл пікірге жауап беру"
 
 #: src/amo/components/AddonReviewCard/index.js:541
 msgid "This rating or review has been deleted. You are only seeing it because of elevated permissions."
-msgstr ""
+msgstr "Бұл рейтинг немесе пікір өшірілген. Сіз оны тек жоғары рұқсаттарыңыздың арқасында көріп тұрсыз."
 
 #: src/amo/components/AddonReviewCard/index.js:587
 msgid "Write a review"
-msgstr ""
+msgstr "Пікір жазу"
 
 #: src/amo/components/AddonReviewManager/index.js:112
 msgid "Write about your experience with this add-on."
-msgstr ""
+msgstr "Осы қосымшаны пайдалану тәжірибеңіз туралы жазыңыз."
 
 #: src/amo/components/AddonReviewManager/index.js:116
 msgid "Submit review"
-msgstr ""
+msgstr "Пікірді жіберу"
 
 #: src/amo/components/AddonReviewManager/index.js:117
 msgid "Submitting review"
-msgstr ""
+msgstr "Пікір жіберілуде"
 
 #: src/amo/components/AddonReviewManager/index.js:119
 msgid "Update review"
-msgstr ""
+msgstr "Пікірді жаңарту"
 
 #: src/amo/components/AddonReviewManager/index.js:120
 msgid "Updating review"
-msgstr ""
+msgstr "Пікір жаңартылуда"
 
 #: src/amo/components/AddonReviewManager/index.js:140
 msgid "Saving"
-msgstr ""
+msgstr "Сақтау"
 
 #: src/amo/components/AddonReviewManager/index.js:141
 msgid "Saved"
-msgstr ""
+msgstr "Сақталған"
 
 #: src/amo/components/AddonReviewManager/index.js:90
 msgid "Please follow our %(linkStart)sreview guidelines%(linkEnd)s."
-msgstr ""
+msgstr "%(linkStart)sПікір жазу нұсқауларын%(linkEnd)s ұстаныңыз."
 
 #: src/amo/components/AddonReviewManagerRating/index.js:35
 msgid "Your star rating:"
-msgstr ""
+msgstr "Жұлдызша рейтингіңіз:"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:253
 msgid "More dictionaries by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған көбірек сөздіктер"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:256
 msgid "More dictionaries by these translators"
-msgstr ""
+msgstr "Осы аудармашылардың көбірек сөздіктері"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:263
 msgid "More extensions by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған көбірек кеңейтулер"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:266
 msgid "More extensions by these developers"
-msgstr ""
+msgstr "Осы әзірлеушілердің көбірек кеңейтулері"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:270
 msgid "Extensions by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған кеңейтулер"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:273
 msgid "Extensions by these developers"
-msgstr ""
+msgstr "Осы әзірлеушілердің кеңейтулері"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:279
 msgid "More language packs by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған көбірек тілдік дестелері"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:282
 msgid "More language packs by these translators"
-msgstr ""
+msgstr "Осы аудармашылардың көбірек тілдік дестелері"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:289
 msgid "More themes by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған көбірек темалар"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:292
 msgid "More themes by these artists"
-msgstr ""
+msgstr "Осы суретшілердің көбірек темалары"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:296
 msgid "Themes by %(author)s"
-msgstr ""
+msgstr "%(author)s ұсынған темалар"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:299
 msgid "Themes by these artists"
-msgstr ""
+msgstr "Осы суретшілердің темалары"
 
 #: src/amo/components/AddonsByAuthorsCard/index.js:305
 msgid "More add-ons by %(author)s"
